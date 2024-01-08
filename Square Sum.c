@@ -8,7 +8,7 @@ int main()
     for(number = 5; number <= 25; number++)
     {
 
-        sum = sum + (number*2);
+        sum = sum + (number*number);
     }
 
     printf("%d\n",sum);
